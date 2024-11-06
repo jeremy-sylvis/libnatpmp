@@ -4,8 +4,8 @@
 # (c) 2007-2018 Thomas Bernard
 # http://miniupnp.free.fr/libnatpmp.html
 
-OS = $(shell $(CC) -dumpmachine)
 CC ?= gcc
+OS = $(shell $(CC) -dumpmachine)
 ARCH = $(OS)
 VERSION = $(shell cat VERSION)
 INSTALL ?= $(shell which install)
